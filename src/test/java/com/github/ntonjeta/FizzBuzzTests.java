@@ -14,6 +14,13 @@ public class FizzBuzzTests {
     }
 
     @Test
+    public void multipleOfSevenShouldBeFizz() {
+        var fizzBuzz = new FizzBuzz();
+
+        assertThat(fizzBuzz.get(7)).isEqualTo("Zac");
+    }
+
+    @Test
     public void multipleOfFiveShouldBeBuzz() {
         var fizzBuzz = new FizzBuzz();
 

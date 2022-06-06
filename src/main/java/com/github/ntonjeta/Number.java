@@ -26,4 +26,8 @@ class Number {
     public int hashCode() {
         return Objects.hash(value);
     }
+
+    public Integer get() {
+        return Integer.valueOf(value);
+    }
 }
